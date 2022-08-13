@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Site Name!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">My EN 1 Site</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./project1.html">Project 1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">Project 2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">Project 3</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <h1 style="margin-top: 1rem; margin-bottom: 2rem; text-align: center;">Project 1: Getting to Know You</h1>
+
+    <div class="container d-flex justify-content-center">
+        <div class="row">
+          <div class="col-sm mx-4">
+            <h2 class="text-left">Description</h2>
+            <p>Here's my Getting To Know You project from EN 1 (Fall 2022). If you get the chance, please use the documentation station in Nolop to take better pictures than I did!
+            </p>
+            <p>Some general tips for documentation:</p>
+            <ul>
+                <li>Take a picture with a plain background and nothing distracting in the shot. The Nolop documentation station makes this easy!</li>
+                <li>Lighting is key! Use lights from multiple angles and try to avoid shadows, especially from yourself.</li>
+                <li>Take photos horizontally.</li>
+                <li>Don't forget to include a video to show your robot in action!</li>
+                <li>Make sure to include a finalized version of your code.</li>
+            </ul>
+          </div>    
+          <div class="col-sm mx-4">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./img/project1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Side View</h5>
+                      <p>A picture of my table on its side</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/project1-1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Card Game</h5>
+                      <p>Card game configuration of the table</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <iframe src="https://drive.google.com/file/d/11fxrcuR761GAuuGASwVnNQ7gWTq25FKN/preview" width="480" height="360" allow="autoplay"></iframe>
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Video Demo</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          </div>
+        </div>
+        
+      </div>
+
+      <h3 class="text-center mt-4">Code</h3>
+
+        <div>
+            <p class="text-center">Note: This project does not involve any programming, but I've included a code sample for future documentation.</p>
+
+            <br />
+
+            <div class="justify-content-center d-flex">
+                <pre>
+# Code Snippet from a program you'll be using soon!
+
+import button, time, motor, port, sound, display, math, util
+
+display.display_clear()
+
+sound.beepPlay(500, 125)
+time.sleep_ms(125)
+sound.beepPlay(750, 125)
+
+# Map of Button integer keys to string descriptions
+btn = {
+    0:'power',
+    1:'left',
+    2:'right',
+    3:'connect',
+}
+
+# Map of Device Types
+devices = {
+    "mediumMotor": 48,
+    "largeMotor": 49,
+    "colorSensor": 61,
+    "distanceSensor": 62,
+    "forceSensor": 63,
+    "noDevice": 255
+}
+
+# Global variables
+ports = [port.PORTA, port.PORTB, port.PORTC, port.PORTD, port.PORTE, port.PORTF]
+currentPower = 0
+MIN_THRESHOLD = 3000 # minimum value to power motors
+MAX_THRESHOLD = 10000
+
+def isMotor(portInput):
+    return (port.port_getDevice(portInput) == devices["mediumMotor"] or port.port_getDevice(portInput) == devices["largeMotor"])
+
+                </pre>
+            </div>
+        </div>
+        
+
+
+
+    
+    
+    
+</body>
+</html>
