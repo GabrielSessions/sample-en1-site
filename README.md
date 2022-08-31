@@ -9,7 +9,12 @@ This project uses [Bootstrap](https://getbootstrap.com/). Feel free to copy/past
 ## Cloning the Template
 If you would like to clone the entire project, run `git clone https://github.com/GabrielSessions/sample-en1-site`
 
-If you're interested in copying a single page, run `wget -p <PAGE LINK>`
+If you're interested in copy a single page, run `wget -p <PAGE LINK>`
 
 ## Template Preview
 https://gabrielsessions.github.io/sample-en1-site/
+
+
+
+
+
