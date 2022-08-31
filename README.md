@@ -42,7 +42,7 @@ https://gabrielsessions.github.io/sample-en1-site/
 
 > Here's a single paragraph of text
 
-> Here's another single paragraph of text
+> Here's another paragraph of text
 
 ### Adding Images
 General format: `<img src="PATH_TO_FILE" alt="Description of the image" />`
