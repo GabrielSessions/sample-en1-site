@@ -1,3 +1,18 @@
+<!-- 
+  index.html 
+
+  By: Gabriel Sessions
+  Last Edited: August 29th
+  EN 1 Simple Robotics
+  Fall 2022
+  
+  The homepage for the EN 1 Sample Portfolio
+  Each page in the portfolio (including the homepage) has an upper
+  navigation bar to switch between pages in the website.
+  The homepage includes a basic grid of cards that provide a basic overview of
+  the student's work.
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +22,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- 
-      Name of the Page, replace "My Page Name!" with your own page name
+      TODO: Name of the Page, replace "My Page Name!" with your own page name
       (like "EN 1 Porfolio Home")
     -->
     <title>My Page Name!</title>
@@ -33,9 +48,6 @@
     <!-- 
       Navigation bar at the top of the screen
       Includes links to all of the project pages
-
-      Challenge: Use JS to add the same navbar to each page dynamically
-      so you can avoid copy/pasting this navbar to each page you create.
     -->
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
@@ -59,19 +71,48 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="./project1.html">Project 1</a>
+                <a class="nav-link" href="./project1/project1.html">Project 1</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link disabled" href="#">Project 2</a>
+                <a class="nav-link" href="./project2/project2.html">Project 2</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link disabled" href="#">Project 3</a>
+                <a class="nav-link" href="./project3/project3.html">Project 3</a>
               </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./project4/project4.html">Project 4</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./project5/project5.html">Project 5</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./project6/project6.html">Project 6</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./project7/project7.html">Project 7</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./project8/project8.html">Project 8</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./project9/project9.html">Project 9</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./project10/project10.html">Project 10</a>
+              </li>
+
 
               <!--
-                Add navbar links here!
+                Optional: Add navbar links here!
 
                 Example: 
                   <li class="nav-item">
@@ -85,7 +126,8 @@
 
 
     <!-- Large Website Title on Homepage -->
-    <h1 style="margin-top: 1rem; margin-bottom: 2rem; text-align: center;">(YOUR NAME)'s EN 1 Porfolio</h1>
+    <!-- TODO: Change the site name -->
+    <h1 style="margin-top: 1rem; margin-bottom: 2rem; text-align: center;">(YOUR NAME)'s EN 1 Porfolio</h1> 
 
     <!-- Grid of Project Cards (main body of homepage) -->
     <div class="container text-center d-flex justify-content-center">
@@ -105,19 +147,19 @@
 
                   Add some alt text to describe what your image is
                 -->
-                <img src="./img/project1.png" class="card-img-top" alt="Project 1 Robot">
+                <img src="./project1/project1-pic1.png" class="card-img-top" alt="Project 1 Robot">
                 <div class="card-body">
                     <!-- Title of your project -->
                     <h5 class="card-title">Getting to Know You</h5>
 
                     <!-- A brief description of the project -->
-                    <p class="card-text">A surprisingly boring and sturdy rollable table. Great for playing board/card games.</p>
+                    <p class="card-text">Insert a brief description of your project here!</p>
 
                     <!-- 
                       Button that links to your project, 
                       change href link to your project page!
                     -->
-                    <a href="./project1.html" class="btn btn-primary">View Project</a>
+                    <a href="./project1/project1.html" class="btn btn-primary">View Project</a>
                 </div>
             </div>
           </div>
@@ -127,14 +169,10 @@
             <div class="card" style="width: 18rem;">
                 <img src="https://media.istockphoto.com/photos/mountain-landscape-picture-id517188688?k=20&m=517188688&s=612x612&w=0&h=i38qBm2P-6V4vZVEaMy_TaTEaoCMkYhvLCysE7yJQ5Q=" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Project 2: Coming Soon</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title">Project 2: Silly Walks</h5>
+                    <p class="card-text">Insert a brief description of your project here!</p>
 
-                    <!-- 
-                      To make this button link active, 
-                      remove "disabled" from the class attribute!
-                    -->
-                    <a href="#" class="btn btn-primary disabled">Coming Soon</a>
+                    <a href="./project2/project2.html" class="btn btn-primary disabled">View Project</a>
                 </div>
             </div>
           </div>
@@ -142,11 +180,13 @@
             <div class="card" style="width: 18rem;">
                 <img src="https://media.istockphoto.com/photos/mountain-landscape-picture-id517188688?k=20&m=517188688&s=612x612&w=0&h=i38qBm2P-6V4vZVEaMy_TaTEaoCMkYhvLCysE7yJQ5Q=" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Project 3: Coning Soon</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary disabled">Coming Soon</a>
+                    <h5 class="card-title">Project 3: Biomimicry</h5>
+                    <p class="card-text">Insert a brief description of your project here!</p>
+
+                    <a href="./project3/project3.html" class="btn btn-primary disabled">View Project</a>
                 </div>
             </div>
+          </div>
           </div>
         </div>
         
