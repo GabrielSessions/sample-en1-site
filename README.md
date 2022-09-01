@@ -74,3 +74,10 @@ You can also change the size of the image using the width and height attributes:
 
 5. Add this code into your HTML, you should see a Google Drive video appear.
 
+### Adding Code
+
+`<pre>print("hello world!")</pre>`
+
+> <pre>print("hello world!")</pre>
+
+Fancier code box directions coming soon!
