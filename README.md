@@ -80,4 +80,8 @@ You can also change the size of the image using the width and height attributes:
 
 > <pre>print("hello world!")</pre>
 
-Fancier code box directions coming soon!
+Code box with rounded edges and a gray background:
+
+`<pre style="border-radius: 25px; background: #cfcfcf; padding: 20px;">print('hello world!')</pre>`
+
+> <pre style="border-radius: 25px; background: #cfcfcf; padding: 20px;">print('hello world!')</pre>
