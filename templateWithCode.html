@@ -82,7 +82,7 @@
           platea dictumst. Tortor at risus viverra adipiscing at in tellus integer feugiat.</p>
 
         <h2 class="text-left">Code</h2>
-        <pre>
+        <pre style="border-radius: 25px; background: #cfcfcf; padding: 20px;">
 import motor, port, util
 
 # Runs two motors for 10 seconds at different speeds
@@ -91,8 +91,7 @@ async def main():
     motor.motor_move_for_time(port.PORTA, 10000, 5000)
     await motor.motor_move_for_time(port.PORTB, 10000, 8000)
     
-util.run(main())
-                
+util.run(main())      
             </pre>
       </div>
       <!-- End Left Column -->
