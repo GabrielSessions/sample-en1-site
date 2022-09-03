@@ -44,6 +44,15 @@ https://gabrielsessions.github.io/sample-en1-site/
 
 > Here's another paragraph of text
 
+### Hyperlinks
+General format: `<a href="PATH_TO_WEBSITE_PAGE"> Link Text </a>`
+
+Example: Link to google.com
+
+`<a href="https://www.google.com/">Google</a>`
+
+> <a href="https://www.google.com/">Google</a>
+
 ### Adding Images
 General format: `<img src="PATH_TO_FILE" alt="Description of the image" />`
 
